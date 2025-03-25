@@ -48,11 +48,11 @@ function Portugues() {
   <button v-on:click= "Italiano">Italiano</button>
   <button v-on:click= "Russo">Russo</button>
   <button v-on:click= "Tcheco">Tcheco</button>
-  <button v-on:click= "Portugues">Português</button>
+  <button v-on:click= "Noruegues">norueguês</button>
   <button v-on:click= "Frances">Francês</button>
-  <button v-on:click= "mandarim">Mandarim</button>
-  <button v-on:click= "alemao">Alemão</button>
-  <button v-on:click= "Noruegues">Norueguês</button>
+  <button v-on:click= "Mandarim">Mandarim</button>
+  <button v-on:click= "Alemao">Alemão</button>
+  <button v-on:click= "Portugues">Português</button>
 </template>
 
 <style scoped>
