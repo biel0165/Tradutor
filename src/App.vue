@@ -23,6 +23,9 @@ function Portugues() {
 function Frances() {
   idioma.value = "Bonjour le monde"
 }
+function mandarim() {
+  idioma.value = "你好世界"
+}
 
 
 
@@ -39,6 +42,7 @@ function Frances() {
   <button v-on:click= "Tcheco">Tcheco</button>
   <button v-on:click= "Portugues">Português</button>
   <button v-on:click= "Frances">Francês</button>
+  <button v-on:click= "mandarim">Mandarim</button>
 </template>
 
 <style scoped>
